@@ -39,11 +39,13 @@
   /* DIGITAL INVITA */
 --gold-text: linear-gradient(
   120deg,
-  #2b0000,
-  #7a0c0c,
-  #ff2a2a,
-  #a11212,
-  #3a0000
+  #3a0000 0%,
+  #7a0c0c 15%,
+  #ff3b3b 30%,
+  #a11212 45%,
+  #ff6a6a 55%,
+  #7a0c0c 70%,
+  #2b0000 100%
 );
   
   --gold-btn: linear-gradient(135deg,#fff1a8 0%,#f6d365 25%,#d4af37 50%,#f6d365 75%,#fff1a8 100%);
@@ -1249,8 +1251,10 @@ border-bottom: 7px solid transparent;
 
   /* DEGRADADO */
 background: var(--gold-text);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+background-size: 200% auto;
+background-position: center;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 
   /* BRILLO */
   text-shadow: 
